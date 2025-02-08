@@ -85,7 +85,7 @@ def heap_sort(array):  # This function performs heap sort using array
         heap.delete()  # Delete the value
         # The heapify begins to ensure father node is better than child node
         # Thus, the highest value is always in the top node
-    return sorted_array
+    return sorted_array[::-1]
 
 
 def main():
