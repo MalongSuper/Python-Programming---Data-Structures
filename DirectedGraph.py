@@ -1,5 +1,5 @@
 # Implements Graph using an adjacency matrix - Undirected Graph
-# The matrix for undirected graph might not be symmetrical
+# The matrix for a directed graph might not be symmetrical
 import numpy as np
 
 
@@ -21,7 +21,7 @@ def adjacency_matrix(V):
 
 def main():
     # Input the number of vertices
-    print("Undirected Graph represented by Adjacency Matrix")
+    print("Directed Graph represented by Adjacency Matrix")
     v = int(input("Enter the number of vertices: "))
     # Display the result
     matrix = adjacency_matrix(v)
