@@ -1,4 +1,4 @@
-# Implements Graph using an adjacency matrix - Undirected Graph
+# Implements Graph using an adjacency matrix - directed Graph
 # The matrix for a directed graph might not be symmetrical
 import numpy as np
 
